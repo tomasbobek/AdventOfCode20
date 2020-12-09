@@ -15,7 +15,7 @@ func main() {
         panic(fmt.Sprintf("Could not establish working directory, error: %v", err))
     }
 
-    numbers, err := loadInput(workingDir + "\\Day1\\input")
+    numbers, err := loadInput(workingDir + "\\input")
     if err != nil {
         panic(fmt.Sprintf("Could not load input file, error: %v\n", err))
     }
